@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+html {
+  overflow-x: hidden !important;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* section-nav */
+
+.cta-btn {
+  background: #fea110;
+  color: #fff;
+  border: 1px solid #fea110;
+  border-radius: 8px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+.cta-btn:hover {
+  color: #fff;
+}
+
+.cta-referral {
+  padding: 12px 36px;
+  background: #fea110;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.cta-referral:hover {
+  color: #fff;
+}
+
+/* section-1 */
+#section-1 {
+  height: 100%;
+  min-height: 100vh;
+}
+
+.centered h1 {
+  color: #000;
+  font-size: 48px;
+  height: 100%;
+}
+
+.btn-undang {
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.sect1-img {
+  width: 90%;
+}
+
+/* section-2 */
+#section-2 {
+  height: 100%;
+  background: #212529;
+  padding: 40px 0;
+}
+
+/* section-3 */
+#section-3 {
+  background: #fafafa;
+  height: 100%;
+}
+
+.sect3-left {
+  overflow-y: hidden;
+}
+
+.sect3-content {
+  height: 100px;
+}
+
+.sect3-right .content-step {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.sect3-right .circle {
+  height: 48px;
+  width: 48px;
+  background-color: #fff;
+  border: 4px solid #fea110;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.sect3-right .stepping-line {
+  position: absolute;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background: #fea110;
+}
+
+/* section-4 */
+
+#section-4 {
+  height: 100%;
+  background: #121212;
+}
+
+.sect4-right img {
+  height: 80vh;
+  /* width: 100vw; */
+  object-fit: cover;
+  clip-path: polygon(30% 1%, 100% 0, 100% 100%, 0% 100%);
+}
+
+/* section-5 */
+
+#section-5 {
+  background: #212529;
+  height: 100%;
+}
+
+#contact-form {
+  background-color: #fff;
+}
+.contact-form-wrapper {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+#map-canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.contact-form-detail {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 1.5rem 3rem;
+  position: relative;
+  margin-top: auto;
+  width: 100%;
+}
+.contact-form-detail-description {
+  display: flex;
+}
+.contact-form-detail-description i {
+  color: var(--carrot-orange);
+  margin-right: 1rem;
+}
+.contact-form-detail-description p {
+  font-size: 0.75rem;
+  color: var(--white);
+}
+.contact-form-container {
+  height: 100%;
+}
+.contact-form-container {
+  padding: 2rem 3rem 100px;
+  background-color: #fff;
+}
+.contact-form a {
+  color: #fff;
+}
+.contact-form a:hover {
+  color: orange;
+}
+.text-form {
+  max-width: 530px;
+}
+
+#contact-form label:after {
+  content: "*";
+  color: red;
+}
+#contact-form label {
+  color: #333;
+  font-size: 14px;
+}
+#contact-form .contact-form-container form {
+  max-width: 530px;
+}
+.submitbutton > div {
+  display: inline-block;
+}
+.submitbutton button.btn-warning {
+  background: #fea110;
+  color: #fff;
+  float: right;
+  width: 40%;
+  padding: 17px;
+  font-weight: bold;
+}
+.select2-container .select2-selection--single {
+  padding: 7px;
+  height: 42px;
+  font-size: 16px;
+  outline: 0px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow {
+  top: 9px;
+}
+
+/* section-6 */
+#section-6 {
+  height: 30vh;
+}
+
+.social-icon-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #fafafa;
+  border-radius: 50%;
+}
+
+.socialicon {
+  font-size: 2em;
+  color: #fafafa;
+}
+
+.footer-text {
+  color: #fafafa;
+}
+
+.f-copyright {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+  /* section-1 */
+  #section-1 {
+    margin-top: 100px !important;
+  }
+
+  .centered {
+    padding: 0 30px;
+  }
+
+  .centered h1 {
+    font-size: 28px;
+  }
+
+  .btn-undang {
+    margin-top: 14px;
+  }
+
+  .sect1-img {
+    padding: 40px;
+    margin: 40px 0;
+  }
+
+  #contact-form .section-title {
+    font-size: 30px !important;
+  }
+  .submitbutton button.btn-warning {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+}
