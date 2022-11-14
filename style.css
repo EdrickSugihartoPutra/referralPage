@@ -315,4 +315,20 @@ body {
     margin-top: 15px;
     font-size: 16px;
   }
+
+  /* footer */
+
+  .social-icon-border {
+    width: 36px;
+    height: 36px;
+  }
+  .fa-lg {
+    font-size: 1em !important;
+  }
+
+  .footer-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+  }
 }
