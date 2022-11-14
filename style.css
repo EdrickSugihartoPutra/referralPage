@@ -148,9 +148,9 @@ body {
   height: 100%;
 }
 
-.sect5-gap {
+/* .sect5-gap {
   margin: 80px 0 !important;
-}
+} */
 
 #contact-form {
   background-color: #fff;
@@ -188,7 +188,7 @@ body {
   height: 100%;
 }
 .contact-form-container {
-  padding: 2rem 3rem 100px;
+  padding: 5rem 3rem 100px;
   background-color: #fff;
 }
 .contact-form a {
