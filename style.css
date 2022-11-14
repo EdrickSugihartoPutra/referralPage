@@ -133,6 +133,10 @@ body {
   height: 100%;
 }
 
+.sect5-gap {
+  margin: 80px 0 !important;
+}
+
 #contact-form {
   background-color: #fff;
 }
@@ -282,6 +286,11 @@ body {
     width: 136px;
   }
 
+  .cta-navbar {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
   /* section-1 */
   .centered {
     padding: 0 30px;
@@ -301,8 +310,18 @@ body {
   }
 
   /* section-3 */
+
+  .sect3-left {
+    margin: 0 30px;
+  }
+
   .sect3-right {
     margin-top: 40px;
+  }
+
+  /* section-4 */
+  .sect4-right img {
+    clip-path: polygon(0% 1%, 100% 0, 100% 100%, 0% 100%);
   }
 
   /* Form */
@@ -330,5 +349,12 @@ body {
     text-align: center;
     font-weight: 400;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sect3-right .circle {
+    height: 36px;
+    width: 36px;
   }
 }
