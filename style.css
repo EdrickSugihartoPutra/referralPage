@@ -403,6 +403,15 @@ body {
     margin: 40px 0;
   }
 
+  /* section-2 */
+  .sect2-left {
+    order: 2;
+  }
+
+  .sect2-right {
+    margin-bottom: 40px;
+  }
+
   /* section-3 */
   .sect3-right {
     margin-top: 40px;
@@ -421,6 +430,10 @@ body {
   /* section-5 */
   .sect5-gap {
     margin: unset !important;
+  }
+
+  .sect5-left {
+    order: 2;
   }
 
   /* Form */
