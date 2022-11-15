@@ -1,6 +1,17 @@
 
+// ---------- anchor offset ------------
+$(document).on("click", 'a[href^="#"]', function (event) {
+    event.preventDefault();
 
-// section 5 bentuk kerjasama form field ----------
+    $("html, body").animate(
+        {
+            scrollTop: $($.attr(this, "href")).offset().top - 100,
+            // 100 is the sticky nav height
+        },
+        0
+    );
+});
+// ---------- section 5 bentuk kerjasama form field ----------
 
 var x, i, j, l, ll, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
