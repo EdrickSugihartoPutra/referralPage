@@ -349,7 +349,7 @@ body {
 @media (max-width: 1200px) {
   /* section-1 */
   #section-1 {
-    margin-top: 44px !important;
+    margin-top: 80px !important;
   }
 
   #section-1 h1 {
@@ -389,10 +389,6 @@ body {
   }
 
   /* section-1 */
-
-  #section-1 {
-    margin-top: 80px !important;
-  }
 
   .centered h1 {
     font-size: 32px;
@@ -456,9 +452,10 @@ body {
 }
 
 @media (max-width: 500px) {
-  /* .sect2-img {
-    padding: 0 20px;
-  } */
+  #section-1 {
+    margin-top: 56px !important;
+  }
+
   .sect2-img {
     padding: 0 20px;
   }
