@@ -220,7 +220,11 @@
             data-aos="fade-left"
             data-aos-duration="800"
           >
-            <img src="assets/section-4.webp" alt="Hashmicro-4" />
+            <img
+              class="img-fluid"
+              src="assets/section-4.webp"
+              alt="Hashmicro-4"
+            />
           </div>
         </div>
       </div>
@@ -384,25 +388,48 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group mb-3">
-                        <label for="coop" class="req">Bentuk Kerjasama</label>
+                        <div class="custom-select">
+                          <label for="coop">Bentuk Kerjasama</label>
+                          <select name="coop" class="form-select" required>
+                            <option value="1" disabled selected>
+                              Kerjasama Sebagai...
+                            </option>
+                            <option value="2">
+                              Referral, saya memiliki klien yang mungkin
+                              tertarik solusi HashMicro...
+                            </option>
+                            <option value="3">
+                              Vendor, saya tertarik untuk menjadi vendor
+                              HashMicro...
+                            </option>
+                            <option value="4">
+                              Mitra, saya tertarik membangun kolaborasi bisnis
+                              yang mungkin menguntungkan HashMicro...
+                            </option>
+                            <option value="5">Lainnya</option>
+                          </select>
+                        </div>
+
+                        <!-- <label for="coop" class="req">Bentuk Kerjasama</label>
                         <select name="coop" class="form-select" required>
-                          <option value="" disabled selected>
+                          <option value="1" disabled selected>
                             Kerjasama Sebagai...
                           </option>
-                          <option value="32">
+                          <option value="2">
                             Referral, saya memiliki klien yang mungkin tertarik
                             solusi HashMicro...
                           </option>
-                          <option value="33">
+                          <option value="3">
                             Vendor, saya tertarik untuk menjadi vendor
                             HashMicro...
                           </option>
-                          <option value="35">
+                          <option value="4">
                             Mitra, saya tertarik membangun kolaborasi bisnis
                             yang mungkin menguntungkan HashMicro...
                           </option>
-                          <option value="62">Lainnya</option>
+                          <option value="5">Lainnya</option>
                         </select>
+                      </div> -->
                       </div>
                     </div>
                   </div>
